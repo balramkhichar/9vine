@@ -15,6 +15,5 @@
 //= require turbolinks
 
 //= require angularjs/app
-//= require_tree ./angularjs/video
 //= require_tree ./templates
 //= require_tree .
