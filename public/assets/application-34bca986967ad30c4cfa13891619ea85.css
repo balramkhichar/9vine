@@ -1,0 +1,83 @@
+/* line 1, /home/balram/projects/ninevine/app/assets/stylesheets/home.css.scss */
+.video-box {
+  margin-bottom: 15px;
+}
+
+/* line 5, /home/balram/projects/ninevine/app/assets/stylesheets/home.css.scss */
+.video-img {
+  overflow: hidden;
+  height: 190px;
+}
+/* line 8, /home/balram/projects/ninevine/app/assets/stylesheets/home.css.scss */
+.video-img img {
+  top: -38px;
+  position: relative;
+}
+
+/* line 15, /home/balram/projects/ninevine/app/assets/stylesheets/home.css.scss */
+.video-text h2 {
+  margin-top: 0px;
+}
+/* line 18, /home/balram/projects/ninevine/app/assets/stylesheets/home.css.scss */
+.video-text p {
+  text-align: justify;
+}
+
+@media (max-width: 1200px) {
+  /* line 24, /home/balram/projects/ninevine/app/assets/stylesheets/home.css.scss */
+  .video-img {
+    height: 150px;
+  }
+}
+@media (max-width: 992px) {
+  /* line 30, /home/balram/projects/ninevine/app/assets/stylesheets/home.css.scss */
+  .video-img {
+    height: 117px;
+  }
+  /* line 32, /home/balram/projects/ninevine/app/assets/stylesheets/home.css.scss */
+  .video-img img {
+    top: -24px;
+  }
+}
+@media (max-width: 768px) {
+  /* line 39, /home/balram/projects/ninevine/app/assets/stylesheets/home.css.scss */
+  .video-img {
+    height: 260px;
+  }
+  /* line 41, /home/balram/projects/ninevine/app/assets/stylesheets/home.css.scss */
+  .video-img img {
+    top: -50px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* line 48, /home/balram/projects/ninevine/app/assets/stylesheets/home.css.scss */
+  .video-text h2 {
+    text-align: center;
+  }
+}
+@media (max-width: 528px) {
+  /* line 55, /home/balram/projects/ninevine/app/assets/stylesheets/home.css.scss */
+  .video-img {
+    height: 212px;
+  }
+  /* line 57, /home/balram/projects/ninevine/app/assets/stylesheets/home.css.scss */
+  .video-img img {
+    top: -52px;
+  }
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */

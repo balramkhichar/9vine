@@ -1,0 +1,13 @@
+<div class="container">
+  <div ng-repeat="vid in video">
+    <div class="row video-box">
+      <div class="col-sm-4 video-img">
+        <img src="http://img.youtube.com/vi/{{vid.yid}}/0.jpg" class="img-responsive" alt="9vine">
+      </div>    
+      <div class="col-sm-8 video-text">
+        <h2><a ui-sref="watch({ id: vid.id})">{{vid.title}}</a></h2>
+        <p>{{vid.story}}</p>
+      </div>
+    </div>
+  <div>
+</div>
